@@ -35,7 +35,7 @@ Nemo the Fish says:
 # Write your code here:
 class Dog:
     def __init__(self, name):
-        self.name = name
+        self._name = name
 
     def description(self):
         return f'{self.name} the Dog'
